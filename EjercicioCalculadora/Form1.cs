@@ -56,7 +56,7 @@ namespace EjercicioCalculadora
         private void BotonLimpiar_Click(object sender, EventArgs e)
         {
             foreach(Control Con in this.Controls)
-            {
+            { 
                 if(Con is TextBox)
                 {
                     Con.Text = "0";
